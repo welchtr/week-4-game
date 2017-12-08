@@ -75,9 +75,9 @@ section p {
 }
 
 #target-number-generator {
-	background-color: #49db86;
+	background-color: black;
 	font-size: 60px;
-	color: purple;
+	color: pink;
 	width: 49%;
 	height: 100%;
 	float: left;
