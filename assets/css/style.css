@@ -1,0 +1,120 @@
+body{
+  background-image: url("../images/abstract_background1.jpg");
+}
+
+.header{
+  width: auto;
+  height: 40px;
+  background-color: white;
+  padding: 0;
+}
+
+.gems{
+  background-color: #fff;
+	width: 496px;
+	height: 126px;
+	margin: auto;
+	border: 2px solid #f08e2a;
+}
+
+.gems img {
+	width: 25%;
+	height: inherit;
+  float: left;
+}
+
+h1 {
+	color: #fff;
+}
+
+p {
+	color: #099c47;
+}
+
+#container {
+	margin-top: 25px;
+}
+
+header {
+	background-color: #f08e2a;
+	width: 500px;
+	margin: 0 auto;
+	border-radius: 25%;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	padding: 8px 5px 8px 5px;
+}
+
+section {
+	background-color: #fbe7c8;
+	width: 500px;
+	height: 250px;
+	line-height: 1em;
+	margin: 25px auto 10px;
+}
+
+section p {
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-right: 5px;
+  color: black;
+}
+
+#targetnumber-and-scoreboard {
+	width: 500px;
+	margin: 0 auto 10px;
+	height: 130px;
+}
+
+#target-number {
+	padding-left: 8px;
+}
+
+#target-number-generator {
+	background-color: #49db86;
+	font-size: 60px;
+	color: purple;
+	width: 49%;
+	height: 100%;
+	float: left;
+}
+
+#score-board {
+	background-color: #4ff2ff;
+	width: 49%;
+	height: 100%;
+	font-size: 30px;
+	float: right;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+#score-board p {
+  font-size: 20px;
+  color: black;
+}
+
+#current-score {
+	clear: both;
+	width: 500px;
+	height: 105px;
+	background-color: #2a967d;
+	margin: 10px auto;
+}
+
+#current-score h1 {
+	font-size: 150%;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#current-score-counter {
+	color: #fff;
+	font-size: 350%;
+	padding-left: 10px;
+}
