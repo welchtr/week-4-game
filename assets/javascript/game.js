@@ -19,8 +19,13 @@ crystal1 = (Math.floor(Math.random()*12)+1);
 crystal2 = (Math.floor(Math.random()*12)+1);
 crystal3 = (Math.floor(Math.random()*12)+1);
 crystal4 = (Math.floor(Math.random()*12)+1);
-console.log(crystal4);
 }
+
+shuffleGemsValues();
+console.log(crystal1)
+
+
+
 
 
 
@@ -61,6 +66,18 @@ $('#red1').on('click', function(){
 
 $('#pink2').on('click', function(){
 	totalScore += crystal2;
+	$('#current-score-counter').text(totalScore);
+	gamePlay();
+});
+
+$('#purp3').on('click', function(){
+	totalScore += crystal3;
+	$('#current-score-counter').text(totalScore);
+	gamePlay();
+});
+
+$('#blue4').on('click', function(){
+	totalScore += crystal4;
 	$('#current-score-counter').text(totalScore);
 	gamePlay();
 });
